@@ -23,9 +23,11 @@
 
 ## Step 3: test the search system
 
+The model used was saved in the Insper Super Computer "Monstrão", in the folder "APS2_model" (it is the only file there, "model.pt").
+Only valid for the 2nd semester of 2024, afterwards the developer Tiago Seixas needs to be contacted to acquire the model.
+
 - Non-obvious results: query = 'smoke'
 
-- Ten results: query = 'A teacher is someone that helps you learn to improve yourself, to be a better person', similarity > 3
+- Less than Ten results: query = 'Santa Claus wears red on christmas eve, delivers presents, and brings joy to all children that are good. Coal to the naughty ones.', similarity > 0.7
 
-- Less than Ten results: query = 'Santa Claus wears red on christmas eve, delivers presents, and brings joy to all children that are good. Coal to the naughty ones.', similarity > 5
-
+- Ten results: query = 'A teacher is someone that helps you learn to improve yourself, to be a better person', similarity > 0.082
